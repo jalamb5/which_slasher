@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halloween — The Franchise</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --fg: #e8e8e8;
+    --muted: #9a9a9a;
+    --accent: #ff6a00;
+    --card: #141414;
+    --border: #2a2a2a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.5;
+  }
+  header {
+    padding: 3rem 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 4rem);
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    text-shadow: 0 0 12px rgba(255,106,0,0.4);
+  }
+  header p {
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  .film {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .film h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  .film .year {
+    color: var(--accent);
+    font-weight: bold;
+  }
+  .film .tag {
+    display: inline-block;
+    margin: 0.4rem 0 0.6rem;
+    padding: 0.15rem 0.5rem;
+    background: rgba(255,106,0,0.15);
+    border: 1px solid var(--accent);
+    font-size: 0.8rem;
+    color: #ffb366;
+  }
+  .film p {
+    margin: 0;
+    color: var(--fg);
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>HALLOWEEN</h1>
+  <p>Thirteen films. One Shape. One very long Halloween night.</p>
+</header>
+<main>
+  <article class="film">
+    <h2>Halloween <span class="year">(1978)</span></h2>
+    <span class="tag">The one that started it all</span>
+    <p>John Carpenter's original. Michael Myers escapes the asylum and stalks babysitter Laurie Strode on Halloween night in Haddonfield. The Shape is born.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween II <span class="year">(1981)</span></h2>
+    <span class="tag">The one in the hospital</span>
+    <p>Picks up the same night. Michael follows Laurie to the hospital; the big twist reveals they're siblings. Laurie's last appearance for 17 years.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween III: Season of the Witch <span class="year">(1982)</span></h2>
+    <span class="tag">The one without Michael Myers</span>
+    <p>A standalone story: a toymaker's Halloween masks kill children via a Stonehenge-powered broadcast. No Michael, no Laurie. Divisive then, cult favorite now.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween 4: The Return of Michael Myers <span class="year">(1988)</span></h2>
+    <span class="tag">The one with Jamie Lloyd</span>
+    <p>Michael escapes again and hunts his niece Jamie. Ends with Jamie stabbing her foster mother — implying the evil has passed to her.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween 5: The Revenge of Michael Myers <span class="year">(1989)</span></h2>
+    <span class="tag">The one with the psychic link</span>
+    <p>Jamie can sense Michael's thoughts and location. Introduces the mysterious Man in Black, who breaks Michael out at the end.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween: The Curse of Michael Myers <span class="year">(1995)</span></h2>
+    <span class="tag">The one with the cult of Thorn</span>
+    <p>Explains Michael's immortality via an ancient druid curse. Tommy Jarvis (yes, same name) returns as an adult. Messy production, multiple cuts.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween H20: 20 Years Later <span class="year">(1998)</span></h2>
+    <span class="tag">The one where Laurie comes back</span>
+    <p>Laurie Strode, now a headmistress, faces Michael again. She decapitates him at the end — seemingly for good.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween: Resurrection <span class="year">(2002)</span></h2>
+    <span class="tag">The one with the reality TV show</span>
+    <p>Michael's death is retconned; he kills Laurie in the opening. The rest is a webcast exploring his childhood home. Busta Rhymes fights Michael.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween <span class="year">(2007)</span></h2>
+    <span class="tag">The one that's a remake</span>
+    <p>Rob Zombie's reimagining. Expands Michael's childhood and backstory; more brutal and grounded than Carpenter's original.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween II <span class="year">(2009)</span></h2>
+    <span class="tag">The one with the visions</span>
+    <p>Zombie's sequel. Laurie has visions of her mother; Michael is haunted by his own. Ends with Laurie apparently taking on the Shape's role.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween <span class="year">(2018)</span></h2>
+    <span class="tag">The one that ignores everything after 1978</span>
+    <p>Direct sequel to the original only — no sibling twist. Laurie, now a survivalist grandma, traps Michael in her burning basement.</p>
+  </article>
+  <article class="film">
+    <h2>Halloween Kills <span class="year">(2021)</span></h2>
+    <span class="tag">The one where the town fights back</span>
+    <p>Michael escapes the fire and cuts through Haddonfield. The townsfolk form a mob — which doesn't go well for them. "Evil dies tonight."</p>
+  </article>
+  <article class="film">
+    <h2>Halloween Ends <span class="year">(2022)</span></h2>
+    <span class="tag">The one with Corey Cunningham</span>
+    <p>Four years later. A bullied teen is corrupted by Michael's evil. The final showdown between Laurie and Michael closes the trilogy.</p>
+  </article>
+</main>
+<footer>
+  Spoiler-light summaries. Not affiliated with Compass, Universal, or Haddonfield.
+</footer>
+</body>
+</html>

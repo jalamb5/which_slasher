@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friday the 13th — The Franchise</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --fg: #e8e8e8;
+    --muted: #9a9a9a;
+    --accent: #b30000;
+    --card: #141414;
+    --border: #2a2a2a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.5;
+  }
+  header {
+    padding: 3rem 1.5rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 4rem);
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    text-shadow: 0 0 12px rgba(179,0,0,0.4);
+  }
+  header p {
+    margin: 0.5rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  .film {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .film h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  .film .year {
+    color: var(--accent);
+    font-weight: bold;
+  }
+  .film .tag {
+    display: inline-block;
+    margin: 0.4rem 0 0.6rem;
+    padding: 0.15rem 0.5rem;
+    background: rgba(179,0,0,0.15);
+    border: 1px solid var(--accent);
+    font-size: 0.8rem;
+    color: #ff6b6b;
+  }
+  .film p {
+    margin: 0;
+    color: var(--fg);
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>FRIDAY THE 13TH</h1>
+  <p>Twelve films. One mask. A lot of bad decisions at Camp Crystal Lake.</p>
+</header>
+<main>
+  <article class="film">
+    <h2>Friday the 13th <span class="year">(1980)</span></h2>
+    <span class="tag">The one where the killer isn't Jason</span>
+    <p>The original. Camp Crystal Lake reopens, and a killer picks off the counselors one by one. The murderer is Pamela Voorhees, avenging her drowned son — Jason himself only appears in the final jump scare.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th Part 2 <span class="year">(1981)</span></h2>
+    <span class="tag">The one with the bag over his head</span>
+    <p>Jason's first outing as the killer. He wears a burlap sack with one eyehole, not yet the hockey mask. Introduces Ginny, the counselor who fights back using psychology.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th Part III <span class="year">(1982)</span></h2>
+    <span class="tag">The one where he gets the mask</span>
+    <p>Shot in 3D. Jason takes the iconic hockey mask off a victim and it becomes his signature. First film where Jason is the lone antagonist throughout.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th: The Final Chapter <span class="year">(1984)</span></h2>
+    <span class="tag">The one where Tommy kills him</span>
+    <p>Jason is finally killed — by young Tommy Jarvis, who shaves his head to look like young Jason and hacks him down. The "final" chapter that wasn't.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th: A New Beginning <span class="year">(1985)</span></h2>
+    <span class="tag">The one with the fake Jason</span>
+    <p>Jason is dead, so the killings are done by an impostor: Roy Burns, a paramedic who snaps after his son is murdered. The twist is the whole point.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th Part VI: Jason Lives <span class="year">(1986)</span></h2>
+    <span class="tag">The one where he's resurrected</span>
+    <p>Tommy Jarvis accidentally brings Jason back to life with a lightning strike. Jason becomes an undead, near-invincible zombie for the rest of the series. More self-aware, almost comedic tone.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th Part VII: The New Blood <span class="year">(1988)</span></h2>
+    <span class="tag">The one with the telekinetic girl</span>
+    <p>A teenage girl with Carrie-style telekinetic powers accidentally frees Jason from his watery grave. She's the one who can finally match him physically.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th Part VIII: Jason Takes Manhattan <span class="year">(1989)</span></h2>
+    <span class="tag">The one on the boat (and briefly in Manhattan)</span>
+    <p>Jason hitches a ride on a high school graduation cruise to New York. Despite the title, most of it takes place on the ship; the Manhattan scenes are brief.</p>
+  </article>
+  <article class="film">
+    <h2>Jason Goes to Hell: The Final Friday <span class="year">(1993)</span></h2>
+    <span class="tag">The one with the body-hopping worm</span>
+    <p>Jason is blown apart by the FBI, then his spirit possesses people via a parasitic worm passed mouth-to-mouth. Ends with Freddy Krueger's glove dragging the mask down.</p>
+  </article>
+  <article class="film">
+    <h2>Jason X <span class="year">(2001)</span></h2>
+    <span class="tag">The one in space</span>
+    <p>Jason is cryogenically frozen and thawed in the 25th century aboard a spaceship. Gets upgraded into "Uber Jason" with a metal exoskeleton. Campy sci-fi.</p>
+  </article>
+  <article class="film">
+    <h2>Freddy vs. Jason <span class="year">(2003)</span></h2>
+    <span class="tag">The one with Freddy Krueger</span>
+    <p>The crossover. Freddy resurrects Jason to spread fear in Springwood, then the two slashers turn on each other. The dream vs. the unstoppable.</p>
+  </article>
+  <article class="film">
+    <h2>Friday the 13th <span class="year">(2009)</span></h2>
+    <span class="tag">The one that's a reboot</span>
+    <p>A Platinum Dunes remake that compresses the first four films into one: Mrs. Voorhees' revenge, Jason with the bag, then the mask. Faster, meaner Jason.</p>
+  </article>
+</main>
+<footer>
+  Spoiler-light summaries. Not affiliated with Paramount, New Line, or Camp Crystal Lake.
+</footer>
+</body>
+</html>
